@@ -1,0 +1,239 @@
+/* Mediaquery Css For All Mobile Screens */
+@media only screen and (min-width:0px) and (max-width:767px){
+    
+    .navbar img{
+        height: 60px;;
+    }
+    .banner-main i{
+        font-size: 30px;;
+    }
+    .navbar ul>li{
+        margin-left: 0px!important;
+    }
+    .indexabout-main h1{
+        font-size: 25px;;
+    }
+    .whyus-main{
+        margin: 500px 0px;;
+        padding: 20px 0px!important;
+        height: 300px!important;
+    }
+    .whyus-main h2{
+        font-size: 25px !important;
+    }
+    .whyus-left{
+        margin-top: 0px;;
+    }
+    .mini-titles{
+        font-size: 14px!important;
+    }
+    .contactus-main textarea{
+        width:71vw!important;
+    }
+    .ashapurna-projects-main{
+        margin-top: 1500px;
+        background: #32343b;
+        padding-top:20px;
+    }
+    .ashapurna-projects-main h2{
+        font-size: 23px;;
+    }
+    .ashapurna-projects-main .feature-titles a{
+        font-size: 20px!important;
+    }
+    .ashapurna-projects-main .rightcols{
+        margin: 30px 0px;;
+    }
+    .overview-main h2{
+        font-size: 20px;;
+    }
+    .indexabout-main p{
+        font-size: 13px!important;
+        line-height: 25px!important;
+    }
+    .overview-main{
+        padding-top: 20px;;
+    }
+    .overview-main h3{
+        font-size:15px!important;
+    }
+    .testimonials-main{
+        padding: 20px 0px;
+    }
+    .testimonials-main h2{
+        font-size: 25px;;
+    }
+    .indexEvent-main h2{
+        font-size: 20px;;
+    }
+    .indexabout-main .numbering{
+        width: 100%;;
+        right: 0px;;
+        bottom: -480px;
+        background-color:lightgrey!important;
+    }
+    .CSR-main .mini2::after{
+        left: 175px;;
+    }
+    .CSR-main .mini3::after{
+        left: 165px;;
+    }
+    .CSR-main .mini4::after{
+        left: 200px;;
+        width: 50px;;
+    }
+    .newsletter-main img{
+        min-width: 100%!important;
+        height:280px;;
+    }
+    .mission-main{
+        max-height: 220px;;
+        padding-top: 120px;
+        margin-bottom: 850px;
+    }
+    .mission-main .leftcard{
+        width:100%;;
+    }
+    .journey-main{
+        margin-top: 20px;;
+        margin-bottom: 0;
+        background-position: top!important;
+        padding: 40px 0px!important;
+    }
+    .journey-main .rightcol{
+        width: 93%;;
+        margin: auto;;
+    }
+    .yearlist-row{
+        max-width: 100%;
+    }
+    .yearlist-col{
+        padding: 10px 0px;;
+    }
+    .yearlist-col::after{
+        content: "";
+        width: 3px;
+        height: 100%;;
+        background-color:gainsboro;
+        position: absolute;
+        top: 0;;
+        left: 50%;;
+        display: none;
+    }
+    .yearlist-box{
+        max-width: 400px;;
+        box-shadow: 0px 5px 10px grey;
+    }
+    .yearlist-box .triangle{
+        display: none;
+    }
+    .yearlist-box .dot{
+        display: none;
+    }
+    .yearlist-box .dot::after{
+        display: none;
+    }
+    .fillbox2 .dot{
+        left: -27%;
+    }
+    .fillbox2 .triangle{
+        left: -5%;
+        transform: rotate(-180deg);
+    }
+    .blog-container{
+        /* overflow: hidden!important; */
+    }
+}
+
+
+/* Mediaquery Css For All Tablet Screens */
+@media only screen and (min-width:768px) and (max-width:991px){
+    
+    .banner-main i{
+        font-size: 35px;;
+    }
+    .navbar img{
+        height: 85px;;
+    }
+    .navbar ul>li{
+        margin-left: 0px!important;
+    }
+    .about-main .numbering{
+        width:100%;
+        position: absolute;
+        right: 0px;;
+        bottom: -220px;;
+        background-color:#f4efeb;
+    }
+    .ashapurna-projects-main{
+        margin-top: 410px;;
+    }
+    .whyus-left{
+        margin-top: 0px;;
+    }
+    .contactus-main textarea{
+        width:88vw!important;
+    }
+    .CSR-main .mini2::after{
+        width: 60px;;
+        left: 273px;;
+    }
+    .newsletter-main img{
+        min-width: 100%!important;
+        height:220px;;
+    }
+    .indexabout-main .numbering{
+        width: 100%;;
+        position: absolute;
+        right: 0px;;
+        background-color:#f4efeb;
+    }
+    .mission-main{
+        padding:50px 0px 0px 0px;
+        margin-bottom: 220px;
+    }
+    .journey-main{
+        margin-top: 20px;;
+        margin-bottom: 40px;;
+        height: 780px;;
+        background-size: cover;
+        background-position: top!important;
+        padding: 60px 0px 0px 0px!important;
+    }
+    .journey-main .rightcol{
+        width: 65%;;
+        margin-left:auto;
+        margin-right: 20px;;
+    }
+    .yearlist-box{
+        max-width: 300px;
+        box-shadow: 0px 5px 10px grey;
+    }
+    
+}
+
+
+/* Mediaquery Css For All Mini-Desktop Screens */
+@media only screen and (min-width:992px) and (max-width:1199px){
+    
+    .navbar img{
+        height: 110px;;
+    }
+    .navbar ul>li{
+        margin-left: 12px!important;
+    }
+    .about-main .numbering{
+        width: 75%;;
+        position: absolute;
+        right: 0px;;
+        bottom: -30px;;
+        background-color:#f4efeb;
+    }
+    .newsletter-main img{
+        min-width: 100%!important;
+        height:280px;;
+    }
+    .contactus-main textarea{
+        width:430px!important;
+    }
+}

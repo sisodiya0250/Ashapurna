@@ -1,0 +1,1245 @@
+
+/* Css For Static Components */
+*{
+    font-family: poppins,sans-serif;
+}
+p{
+    text-align: justify!important;
+    line-height: 30px!important;
+    font-size: 15px!important;;
+}
+:root{
+    --tanColor:#be8553;
+    --blackBg:#32343b;
+}
+input::placeholder{
+    color: Black!important;
+}
+.container{
+    max-width: 1440px!important;
+}
+.goldbtn{
+    background-color: #be8553!important;
+    color: white!important;
+}
+.goldbtn:hover{
+    background-color: white!important;
+    color: #be8553!important;
+    border:1px solid #be8553!important;
+}
+/* Css For Static Components */
+
+/* Css Of Reusable Parts */
+.cursor-pointer{
+    cursor: pointer;
+  }
+.mini-titles{
+    font-size: 15px;;
+    color: var(--tanColor);
+    position: relative!important;
+}
+.mini-titles::after{
+    content: "";
+    width: 75px;;
+    height: 1px;;
+    background-color:#be8553;
+    position: absolute;
+    left: 90px;
+    top: 7px;;
+}
+.rentLease-main .overlap-card h6{
+    font-size: 14px!important;
+}
+.overlap-footer{
+    opacity:0;
+    height:0px;;
+    transition:all .5s;;
+}
+.mainbox:hover .overlap-card .overlap-footer{
+    opacity: 1;;
+    height: 35px;;
+}
+/* Css Of Reusable Parts */
+
+/* Css Of Header/Navbar Section */
+header{
+    z-index: 999;
+}
+.navbar img{
+    height: 120px;;
+    position: absolute;
+    top: 0px;;
+    left: 0px;;
+}
+.navbar ul>li{
+    margin-left: 23px!important;
+}
+.navbar li>a:hover{
+    text-decoration: none;
+    color:var(--tanColor)!important;
+    border-bottom: 1px solid #be8553;
+}
+.navbar ul>li:hover{
+    transition: .3s;;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+    padding-top: 30px;;
+}
+.dropdown-menu li a{
+    border:none!important;
+}
+.navbar .enqbtn{
+    background-color: var(--tanColor);
+}
+.navbar .enqbtn:hover{
+    background-color: white!important;
+    color: var(--tanColor)!important;
+    border:1px solid var(--tanColor)!important;
+}
+/* Css Of Header/Navbar Section */
+
+/* Css Of Index-Banner-Slider Section */
+.banner-main{
+    background-color:snow;
+}
+.banner-main i{
+    font-size: 50px;;
+    color: rgb(237, 99, 48);;
+}
+/* Css Of Index-Banner-Slider Section */
+
+/* Css Of Index-Enquiry-Form Section */
+.indexform-main form{
+    display: flex!important;
+    justify-content: center!important;
+}
+.indexform-main .btncol{
+    width:18%;
+}
+.indexform-main .lastcol{
+    width:auto!important;
+}
+.indexform-main{
+    box-shadow: 0px 5px 10px grey;
+    border-bottom: 5px solid #be8553;
+}
+.indexform-main input{
+    height: 65px;;
+}
+.indexform-main select{
+    height: 65px;;
+}
+.indexform-main input::placeholder{
+    color:black;;
+}
+.indexform-main button{
+    background-color: #be8553;
+    padding: 17px 25px;;
+}
+.indexform-main button:hover{
+    background-color: white;
+    color:#be8553!important;
+    border:1px solid #be8553;
+}
+/* Css Of Index-Enquiry-Form Section */
+
+
+/* Css Of Index-AboutUs Section */
+.indexabout-main .leftcol img{
+    height: 520px!important;;
+}
+.indexabout-main h1{
+    font-weight: 600;;
+    font-size: 35px;;
+}
+.indexabout-main .numbering{
+    width: 1010px;;
+    position: absolute;
+    right: 0px;;
+    bottom: 20px;;
+    background-color:#f4efeb;
+}
+.indexabout-main .rightcol img{
+    height: 50px;;
+}
+.indexabout-main .rightcol h6{
+    font-size: 17px;;
+}
+/* Css Index-AboutUs Section */
+
+
+/* Css Index-WhyUs Section */
+.whyus-main{
+    margin: 50px 0px;;
+    background-image: url(../images/banners-big/whyashapurna-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;;
+    height: 600px;;
+}
+.whyus-main h2{
+    font-size: 35px;
+}
+.whyus-left{
+    margin-top: 145px;;
+}
+.inner-block{
+    box-shadow: 0 2px 20px rgba(0,0,0,.1);
+    border-radius: 10px 10px 0 0;
+    padding: 40px 35px;
+    min-height: 319px;
+    background-color: #fff;
+    border-bottom: 7px solid #be8553;;
+    cursor: pointer;
+}
+.whyus-right .inner-block:hover{
+    background-color: #32343b;
+    color: white;
+}
+.corner-block{
+    width: 28px;
+    height: 82px;
+    background-color: #f4efeb;
+    right: 0;
+    top: 45px;
+}
+.corner-block:hover{
+    background-color: black;
+}
+.inner-block span img{
+    max-height: 52px;
+}
+.golden-color{
+    color: #be8553;
+}
+.whyus-right .title-underline{
+    width: 110px;
+    height: 0;
+    border: 1px solid #be8553;
+}
+/* Css Index-WhyUs Section */
+
+
+/*Css Of Index-Featued-Project css */
+.ashapurna-projects-main{
+    background: #32343b;
+    padding-top: 4rem;
+    margin-top: 200px;
+}
+.owl-carousel .owl-dots.disabled{
+    display: block;
+}
+.owl-dots{
+    margin-top:40px;
+}
+.owl-carousel .owl-nav{
+    display: none;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #be8553!important;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background: #be8553;
+}
+.carousel-control-next{
+    padding-left: 160px;
+}
+.carousel-control-prev{
+    padding-right: 160px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-image: none;
+    color: #be8553;
+}
+.about-project .logo1{
+    width: 41px;
+    height: 50px;
+}
+.about-project .logo2{
+    width: 48px;
+    height: 50px;
+}
+.about-project .logo3{
+    width: 65px;
+    height: 50px;
+}
+.about-project .logo4{
+    width: 130px;
+    height: 50px;
+}
+.about-project a{
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.about-it{
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+.f-block{
+    margin-bottom: 25px;
+}
+.f-icon{
+    width: 36px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.lh-24{
+    line-height: 24px;
+}
+.text-16-600{
+    font-size: 16px;
+    font-weight: 600;
+}
+/*Indexpage Featued Project css */
+
+/* Indexpage overview,Testimonials Css */
+.overview-main{
+    background: url('../images/banners-big/whyashapurna-bg.webp') center;
+    background-size:cover;
+    padding-top: 60px;;
+    background-repeat: no-repeat;
+}
+.ab-upper .subtitle:after{
+    top: 12px;
+    left: 170px;
+}
+.outerBlock{
+    height: 272px;
+    border: 8px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.outerBlock img{
+    border-radius: 5px;
+}
+.ab-lower .col-lg-4{
+    height: 350px;
+}
+.yellow-box{
+    background: #C49B0F;
+    font-size: 12px;
+    color: white;
+    padding: 0.5rem;
+    top: 1rem;
+    right: 1rem;
+}
+.innerBlock{
+    width: 80%;
+    left: 10%;
+    background-color: white;
+    padding: 10px 16px;
+    bottom: 40px;
+}
+.location{
+    font-size: 13px;
+}
+.innerBlock p{
+    margin-bottom: 0;
+}
+.shadow-sm{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.innerBottom{
+    font-size: 14px;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.outerBlock:hover .innerBottom{
+    opacity: 1;
+    height: 35px;
+}
+.project-tag{
+    font-size: 13px;
+    background-color: #062f43;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 10px;
+    background-color: #d9d9d9;
+    margin: 0 5px;
+}
+.carousel-indicators .active {
+    background-color: #be8553!important;
+}
+.slider2{
+    margin-bottom: 50px;;
+}
+.slider2 .col-lg-4{
+    width: 100%;
+}
+.ab-lower .owl-dots{
+    margin-top: 5px;
+}
+.ab-lower .owl-theme .owl-dots .owl-dot span{
+    width: 40px;
+    height: 10px;
+    border-radius: 4px;
+    background: #d9d9d9;
+}
+.green-box{
+    background: rgb(114, 180, 38);
+    font-size: 12px;
+    color: white;
+    padding: 0.5rem;
+    top: 1rem;
+    right: 1rem;
+}
+.red-box{
+    background: rgb(255, 87, 34);
+    font-size: 12px;
+    color: white;
+    padding: 0.5rem;
+    top: 1rem;
+    right: 1rem;
+}
+.dots-img{
+    top: 78px;
+    right: 0;
+}
+.testimonials-main{
+    background: #32343b;
+    padding: 4rem 0;
+}
+.t-left .subtitle:after{
+    top: 12px;
+    left: 160px;
+}
+.t-block{
+    z-index: -1;
+    margin-top: 105px;
+}
+.t-image{
+    border: 8px solid #be8553;
+    margin-top: -12%;
+    border-radius: 50%;
+}
+.t-image:before{
+    position: absolute;
+    width: 228px;
+    height: 228px;
+    content: "";
+    background: #fff;
+    opacity: .2;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+    z-index: 999;
+}
+.t-image img{
+    height: 187px;
+}
+.AA{
+    color: #5a5a5a;
+    font-weight: 500;
+}
+.review{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    color: #314b58;
+}
+.dots-img2{
+    top: 25px;
+}
+.slider3 .owl-dots{
+    margin-top: 30px;
+    text-align: start;
+}
+/* Indexpage overview,Testimonials Css */
+
+/* Css Of Index-Media-Events Section */
+.indexEvent-main img{
+    height:100%;
+}
+.indexEvent-main i{
+    color: #be8553;
+}
+.indexEvent-carousel button span{
+    background-color: gainsboro!important;
+    padding: 0px 25px;;
+    display: inline-block;
+}
+.indexEvent-carousel .lower-info{
+    min-height: 110px;;
+}
+/* Css Of Index-Media-Events Section */
+
+/* Css Of Footer1,2,3 Sections  */
+.footer1{
+    background-color: var(--blackBg);
+}
+.footer1 .logo img{
+    height: 80px;;
+}
+.footer1 .iconbox{
+    padding: 5px 9px;
+}
+.footer1 .row{
+    border-bottom: 1px solid grey;;
+}
+.footer1 .leftcol{
+    border-right:1px solid grey;
+}
+.footer1 .rightcol h5{
+    border-bottom: 1px solid snow;;
+    position: relative;
+}
+.footer1 .rightcol h5::after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;;
+    width: 60%;;
+    height: 3px;
+    background-color:var(--tanColor)!important;
+}
+.footer1 ul{
+    flex-wrap: wrap!important;
+}
+.footer1 ul li,
+.footer2 ul li{
+    display: inline;
+    margin-right:35px;;
+}
+.footer1 ul li a,
+.footer2 ul li a
+{
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 17px!important;
+}
+.footer1 ul li a::after,
+.footer2 ul li a::after{
+    content: "";
+    position: absolute;
+    width:18px;
+    height: 1px;;
+    right: -25px;
+    top: 14px;;
+    transform: rotate(90deg);
+    background-color:snow!important;;
+}
+.footer1 .social-icons i{
+    margin: 0px 5px;;
+    padding:6px 7px;
+    background-color: white;
+    border-radius: 50%;;
+    color:black;;
+    font-size: 14px;;
+    transition: .4s;;
+}
+.footer1 .social-icons i:hover{
+    background-color: #be8553;
+    color: white;;
+    cursor: pointer;
+}
+.footer2 ul li a::after{
+    background-color:black!important;
+}
+.footer2 ul li{
+    display: inline;
+    margin-right: 35px;;
+}
+.footer2 ul{
+    border-bottom: 1px solid gainsboro;;
+}
+.endfooter{
+    background-color: #e8ddd5!important;
+}
+/* Css Of Footer1,2,3 Sections  */
+
+/* Css Of OurTeam & Managemnt Speak Pages */
+.team-banner{
+    background-image: url("../images/banners-big/team-banner.webp");
+    padding: 110px 0px;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.team-banner h1{
+    color: #be8553;
+    font-weight: 700;;
+}
+.directors .leftcol{
+    background-color:#f4efeb;
+}
+.directors .leftcol .mini-titles::after{
+    left: 50px;;
+}
+.directors .leftcol p{
+    line-height: 1.6rem;
+overflow: hidden;
+-webkit-line-clamp: 7;
+max-height: 11rem;
+    word-wrap:wrap;
+}
+.directors button{
+    background-color: #062f43;;
+}
+.directors button:hover{
+    background-color: white;
+    color: #062f43!important;;
+    border:1px solid #062f43!important;
+}
+.directors img{
+    background-color: #062f43;
+}
+.directors .director-sir::after{
+    position: absolute;
+    left: 88px!important;;
+    top: 8px;;
+}
+.directors .quote-img img{
+    background-color: transparent!important;
+}
+/* Css Of OurTeam & Managemnt Speak Pages */
+
+
+/* Css For About-Us Page */
+.aboutus-slider-main .overlap-card{
+    position: absolute;
+    bottom:-13%;
+    left: 13%;;
+}
+.about-numbering{
+    padding:40px 0px;;
+    background-image: url("../images/card-type/aboutmain-features-bg-new.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-numbering h4{
+    color: #be8553;
+}
+.about-numbering .icons img{
+    height: 85px!important;
+}
+.about-main .mini-titles::before{
+    position: absolute;
+    content: "About";
+    top: -22px;
+    left: 5px;
+    font-size: 6rem;
+    line-height: 6rem;
+    opacity: .33;
+    z-index: -1;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px #be8553;
+    color: #fff;
+}
+.mission-main{
+    max-height: 220px;;
+    padding-top: 120px;
+    margin-bottom: 150px;
+    background-image: url("../images/banners-big/whyashapurna-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mission-main h4::after{
+    content: "";
+    width: 27%;;
+    height: 2px;;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;;
+}
+.mission-main .leftcard{
+    box-shadow: 0px 7px 15px rgba(0,0,0,.7);
+}
+.mission-main img{
+    width: 100%!important;
+    height:200px;
+}
+.mission-main .leftcard{
+    width:49%;;
+}
+.about-main p span{
+    color: #be8553;
+}
+.top-badge1{
+    position: absolute;
+    right: 40px;
+    top: 20px;;
+    background-color: orangered!important;
+}
+.top-badge2{
+    position: absolute;
+    right: 40px;
+    top: 20px;;
+    background-color:lime!important;
+}
+.top-badge3{
+    position: absolute;
+    right: 40px;
+    top: 20px;;
+    background-color: limegreen!important;
+}
+.top-badge4{
+    position: absolute;
+    right: 40px;
+    top: 20px;;
+    background-color:black!important;
+}
+.top-badge5{
+    position: absolute;
+    right: 40px;
+    top: 20px;;
+    background-color:rgb(51, 168, 240)!important;
+}
+/* Css Of About-Us Page  */
+
+
+/* Css Of CSR-Socials Page */
+.CSR-main .mini1::after{
+    left: 50px;;
+}
+.CSR-main .mini2::after{
+    left: 280px;;
+}
+.CSR-main .mini3::after{
+    left: 170px;;
+}
+.CSR-main .mini4::after{
+    left: 210px;;
+}
+.CSR-main img{
+    transition: .7s;
+}
+.CSR-main .rightside:hover img{
+    transform: scale(1.1);
+}
+.CSR-main .social-updates img{
+    height: 300px;;
+    transition: .5s;
+}
+.CSR-main .card-img{
+    height: 300px;;
+    overflow: hidden!important;
+}
+.CSR-main .card-img img{
+    height: 100%;;
+}
+.CSR-main .card-img:hover img{
+    transform: scale(1.1);
+}
+.CSR-main .card h6{
+    color: #be8553;
+}
+.CSR-main .card button{
+    background-color: #be8553;
+    color: white!important;;
+}
+.CSR-main .card-body{
+    background-color: rgb(241, 234, 234)!important;;
+}
+ .mainbox{
+    margin-bottom: 75px;;
+    cursor: pointer;
+}
+ .overlap-card img{
+    height: 30px;
+}
+.overlap-card{
+    position: absolute;
+    bottom:-13%;
+    left: 13%;;
+}
+/* Css Of CSR-Socials Page */
+
+/* Css For Newsletter Page */
+.newsletter-main img{
+    min-width: 300px!important;
+    height:280px;;
+}
+.newsletter-main .lower-info{
+    color: #be8553;
+}
+/* Css For Newsletter Page */
+
+/* Css Of Why Invest & NRI Corner Pages */
+.whyinvest-main img{
+    max-width: 100%;;
+    height: auto;
+}
+.NRI-main .mini-titles::after{
+    left: 40px;;
+}
+.NRI-main form{
+    border-left: 7px solid #be8553;
+    border-radius: 7px;;
+}
+.NRI-main button{
+    background-color: #be8553;
+}
+.NRI-main button:hover{
+    background-color: white!important;;
+    color: #be8553!important;
+    border:1px solid #be8553!important;
+}
+/* Css Of Why Invest & NRI Corner Pages */
+
+/* Css For Media & Events Page */
+.mediaEvent-main img{
+    height: 260px;;
+}
+.mediaEvent-main a:hover{
+    color: #be8553!important;
+}
+.mediaEvent-main i{
+    color: #be8553!important;
+}
+.mediaEvent-main button{
+    background-color: #be8553;
+    color: white!important;;
+}
+.mediaEvent-main button:hover{
+    background-color:white!important;
+    color: #be8553!important;
+    border:1px solid #be8553!important;
+}
+.mediaEvent-main .lower-details{
+    min-height: 280px!important;
+}
+/* Css For Media & Events Page */
+
+/* Css Of Education, Residential,Commercial & Hospitality Pages  */
+.eduproject-main ul li a{
+    margin: 0px 10px;
+}
+.eduproject-main ul li:hover a{
+    color: #be8553!important;
+    box-shadow: 0px 0px 1px 1px #be8553;
+}
+.project-page ul li a.activelist{
+    border:1px solid #be8553!important;
+    color: #be8553!important;
+}
+/* Css Of Education, Residential,Commercial & Hospitality Pages  */
+
+/* Css Of Our-Journey Page */
+.journey-main{
+    background-image: url("../images/card-type/floor-plan.jpg");
+    background-size: contain;
+    background-position:17%;
+    background-repeat: no-repeat;
+    padding: 100px 0px;;
+    margin: 75px 0px;;
+}
+.journey-main h6{
+    font-size: 15px;;
+    color: #be8553;
+}
+.journey-main .rightcol{
+    box-shadow: 0px 7px 14px rgba(0,0,0,.3);
+    border-bottom: 8px solid #be8553;
+}
+.journey-main .mini-titles::after{
+    left: 120px;;
+}
+.yearlist-row{
+    max-width: 1000px;;
+    margin: auto;
+}
+.yearlist-col{
+    padding: 10px 0px;;
+}
+.yearlist-col::after{
+    content: "";
+    width: 3px;
+    height: 100%;;
+    background-color:gainsboro;
+    position: absolute;
+    top: 0;;
+    left: 50%;;
+}
+.yearlist-box{
+    max-width: 400px;;
+    box-shadow: 0px 5px 10px grey;
+}
+.yearlist-box .triangle{
+    position: absolute;
+    left: 100%;;
+    top: 45%;;
+    width: 20px;
+    height: 20px;;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #be8553;
+}
+.yearlist-box .dot{
+    width: 20px;
+    height: 20px;;
+    border-radius: 50%;
+    border:2px solid #be8553;
+    position: absolute;
+    top: 48%;;
+    right: -28%;;
+    z-index: 999888;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yearlist-box .dot::after{
+    content: "";
+    width: 8px;
+    height: 8px;;
+    border-radius: 50%;;
+    background-color: #be8553;
+}
+.fillbox2 .dot{
+    left: -27%;
+}
+.fillbox2 .triangle{
+    left: -5%;
+    transform: rotate(-180deg);
+}
+/* Css Of Our-Journey Page */
+
+/* Css Of ContactUs Page */
+.contactus-main .icon-box i{
+    background-color: rgba(255,255,255,.6);
+}
+.contactus-main .info-cols{
+    background-color: #be8553;
+    box-shadow: 0px 5px 10px 0px grey;;
+}
+.contactus-main input{
+    height: 60px;;
+}
+.contactus-main select{
+    height: 60px;;
+}
+.contactus-main .formside{
+    border-left: 7px solid #be8553;
+    box-shadow: 0px 7px 14px 0px lightgrey;;
+}
+.contactus-main textarea{
+    width: 650px;
+    height: 100px!important;
+}
+.contactus-main button{
+    background-color: #be8553;
+}
+.contactus-main button:hover{
+    background-color: white!important;
+    color: #be8553!important;
+    border:1px solid #be8553!important;
+}
+/* Css Of ContactUs Page */
+
+/* Css Of Blogs Page */
+.blog-main{
+    z-index: -99999;;
+}
+.blog-container{
+    max-width: 1200px!important;
+    margin: auto!important;
+}
+.blog-main figure img{
+    max-width: 100%!important;
+    height:auto;
+}
+.blognav{
+    box-shadow: 0px 2px 10px lightgrey;;
+}
+.blog-main input{
+    padding: 7px 5px;;
+    border-radius: 5px!important;;
+    border:2px solid gainsboro;
+}
+.blog-main input::placeholder{
+    color: grey!important;
+    padding-left: 10px;;
+}
+.blog-main ul li{
+    border-bottom: 2px solid gainsboro;
+}
+.blog-main ul li a{
+    transition: .3s;;
+}
+.blog-main .postlist li:hover a{
+    color: #be8553!important;
+}
+.blog-main .foot-info h6{
+    font-size: 13px;;
+}
+.blog-main .leftside{
+    border-bottom: 2px solid gainsboro;
+}
+.blog-main .social-links i{
+    width: 30px;;
+    display: inline;
+    height: 30px;;
+    padding:10px;;
+    border-radius: 50%;;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .7s;
+    transform-origin:center;
+}
+.blog-main .social-links i:hover{
+    background-color:transparent!important;
+    color: black!important;
+    box-shadow: 0px 0px 1px 2px black inset;;
+}
+.blog-main .older-posts{
+    font-size: 14px;;
+}
+.blog-main .older-posts i{
+    padding: 8px 12px;
+    box-shadow: 0px 0px 4px grey;;
+}
+/* Css Of Blogs Page */
+
+/* Css Of NRI-Township Page */
+.after-NRIbanner .brochure-section{
+    box-shadow: 0px 2px 15px grey;
+    border-bottom: 10px solid #be8553;
+}
+.after-NRIbanner img{
+    height: 165px;;
+    width:150px;
+}
+.after-NRIbanner h1::after{
+    content: "";
+    width: 14%;;
+    height: 2px;;
+    background-color: #be8553;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;;
+}
+
+.after-NRIbanner h2::after{
+    content: "";
+    width: 65%;;
+    height: 2px;;
+    background-color: #be8553;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;;
+}
+.after-NRIbanner .sideimg{
+    height: 120px;;
+}
+.after-NRIbanner button{
+    color: #be8553;
+    outline: 1px solid #be8553!important;
+}
+.after-NRIbanner .amenityrow h5{
+    font-size: 15px;;
+    color: #be8553;
+}
+.after-NRIbanner .amenityrow h6{
+    font-size: 14px;;
+}
+.after-NRIbanner .amenitybox{
+    flex-basis: 23%!important;;
+    border:1px solid #be8553;
+}
+.after-NRIbanner .amenity-lastbox{
+    min-height: 70px!important;
+}
+.after-NRIbanner .amenity-lastbox{
+    height: 72px!important;;
+    background-color: #be8553!important;
+}
+.after-NRIbanner .black-card h6{
+    color:#be8553;
+}
+.after-NRIbanner form h4{
+    color:#be8553;
+}
+.after-NRIbanner form h4::after{
+    content: "";
+    width: 35%;
+    height: 2px;;
+    background-color: #be8553;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.after-NRIbanner form{
+    box-shadow: 0px 5px 10px grey;
+    border-bottom: 8px solid #be8553;
+}
+.after-NRIbanner input{
+    outline: none!important;
+    box-shadow: none;;
+}
+.after-NRIbanner form button{
+    background-color: #be8553;
+}
+.after-NRIbanner form button:hover{
+    background-color: White!important;
+    color: #C49B0F!important;
+}
+.after-NRIbanner form input::placeholder{
+    color: grey!important;
+}
+.after-NRIbanner form i{
+    color: #be8553;
+}
+form .input-group-text{
+    background-color:white;
+    border: 1px solid black;
+}
+
+.township-masterplan{
+    background-color:#212529!important;
+}
+.township-masterplan h2{
+    color: #be8553;
+}
+.township-masterplan h2::after{
+    content: "";
+    width: 12%;
+    height: 2px;;
+    background-color:#be8553;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.township-floorplan{
+    background-color:#f4efeb;
+}
+.township-floorplan ul{
+    width:max-content;
+    font-size: 15px;;
+}
+.township-floorplan .floor-scroller{
+    overflow-x:scroll;
+}
+.township-floorplan ul li:hover a{
+    border:1px solid #be8553;
+    color: #be8553!important;
+}
+.township-floorplan .floor-scroller::-webkit-scrollbar{
+    width: 15px!important;
+    height: 8px!important;
+    background-color:gainsboro;
+}
+.township-floorplan .floor-scroller::-webkit-scrollbar-thumb{
+    background-color:rgb(133, 130, 130);
+    border-radius: 20px;;
+}
+.floorslider-main{
+    max-width: 1150px;;
+    margin: auto;
+} 
+.township-updates .imgcols .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;;
+    background-color: rgba(255,255,255,.7);
+    opacity: 0;;
+    transition: .5s;
+}
+.township-updates ul li a:hover{
+    border:1px solid #be8553;
+    color: #be8553!important;
+    border-radius: 5px;;
+}
+.township-updates ul li.activetab a{
+    border:1px solid #be8553!important;
+    color: #be8553!important;
+    border-radius: 5px;;
+}
+.township-updates .imgcols:hover .overlay{
+    opacity: 1;;
+}
+.township-updates .overlay button{
+    background-color: #be8553!important;
+    color: white;;
+}
+.township-updates .overlay button:hover{
+    background-color:black!important;
+    color: white;;
+}
+.township-videos .item{
+    box-shadow: 0px 5px 20px 2px gainsboro;;
+    margin: 10px;;
+}
+.loan-map .loanrow img{
+    height: 40px;;
+}
+.tGallery .tab-content-wrapper{
+    width: 700px;;
+    margin: auto;
+}
+.tGallery ul li{
+    max-width: 400px;;
+}
+.videosection .video-overlay{
+    position: absolute;
+    top: 0;
+    /* left: 4%;; */
+}
+.videosection img{
+    width:100%!important;
+    height:100%!important;
+    object-fit: cover;
+}
+
+.sharebtn{
+    width: 30px;;
+    height: 30px;;
+    padding: 25px;;
+    background-color:rgb(46, 46, 46);
+    border-radius: 50%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;;
+    left: 10px;;
+    bottom: 20px;;
+    cursor: pointer;
+}
+
+.wpbtn{
+    width: 30px;;
+    height:30px;;
+    padding: 25px;;
+    border-radius: 50%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;;
+    right: 10px;;
+    bottom: 10%;
+    cursor: pointer;
+}
+.sideEnq{
+    background-color: #be8553;
+    position:fixed;;
+    top: 20%;
+    right: -30%;
+    transform: rotate(90deg);
+    writing-mode:horizontal-tb;
+    transition: 1s;;
+}
+.toggleSidebtn{
+    position: fixed;
+    right:-2.5%;
+    top:20%;
+
+}
